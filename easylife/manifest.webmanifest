@@ -1,7 +1,7 @@
 {
   "name": "EasyLife",
   "short_name": "EasyLife",
-  "start_url": "/easylife/",
+  "start_url": "/easylife/login.html",
   "scope": "/easylife/",
   "display": "standalone",
   "background_color": "#000000",
