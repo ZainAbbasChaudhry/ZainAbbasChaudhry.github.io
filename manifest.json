@@ -1,0 +1,63 @@
+{
+  "name": "Easylands – Pakistan Real Estate",
+  "short_name": "Easylands",
+  "description": "Pakistan's premier real estate platform. Browse, invest, and manage properties with AI-powered insights.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#0f172a",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "categories": ["business", "finance", "lifestyle"],
+  "icons": [
+    {
+      "src": "/easylands-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/easylands-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/opengraph.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Easylands Property Listings"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Properties",
+      "short_name": "Properties",
+      "description": "Search and browse all properties",
+      "url": "/properties",
+      "icons": [{ "src": "/easylands-icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "My Messages",
+      "short_name": "Messages",
+      "description": "View your messages",
+      "url": "/messages",
+      "icons": [{ "src": "/easylands-icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "My Leads",
+      "short_name": "Leads",
+      "description": "Manage your leads",
+      "url": "/leads",
+      "icons": [{ "src": "/easylands-icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
