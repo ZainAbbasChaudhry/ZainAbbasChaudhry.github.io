@@ -1,5 +1,12 @@
-const CACHE_NAME = "easylands-v4";
-const STATIC_ASSETS = ["/easylands-logo.jpg", "/favicon.svg", "/manifest.json"];
+const CACHE_NAME = "easylands-v5";
+const STATIC_ASSETS = [
+  "/easylands-logo.jpg",
+  "/favicon.svg",
+  "/manifest.json",
+  "/easylands-icon-180.png",
+  "/easylands-icon-192.png",
+  "/easylands-icon-512.png",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
