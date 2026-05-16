@@ -2,12 +2,12 @@ importScripts("https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js
 importScripts("https://www.gstatic.com/firebasejs/10.12.0/firebase-messaging-compat.js");
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBbVbjoP-Kehl6LAky4a5HOM3jl8dWElJQ",
-  authDomain: "easylife-8b21d.firebaseapp.com",
-  projectId: "easylife-8b21d",
-  storageBucket: "easylife-8b21d.firebasestorage.app",
-  messagingSenderId: "878219518561",
-  appId: "1:878219518561:android:76fc100a00903529290020",
+  apiKey: "AIzaSyAXhgN85zD8-ojdNP2YK4X3Q0ccFnXLioQ",
+  authDomain: "easylands-app.firebaseapp.com",
+  projectId: "easylands-app",
+  storageBucket: "easylands-app.firebasestorage.app",
+  messagingSenderId: "1031195747972",
+  appId: "1:1031195747972:web:1d954ad93885fd0b7844d1",
 });
 
 const messaging = firebase.messaging();
